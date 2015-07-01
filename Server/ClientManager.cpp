@@ -5,7 +5,7 @@
 
 ClientManager::ClientManager()
 {
-	output("Client Manager constructed...");
+	output("Client Manager constructed...\n");
 
 	std::thread(&ClientManager::listen, this).detach();
 	std::thread(&ClientManager::receive, this).detach();
@@ -22,7 +22,7 @@ void ClientManager::listen()
 	sf::TcpListener listener;
 	unsigned short port = 10993;
 
-	output("Listening...");
+	output("Listening...\n");
 
 	if (listener.listen(port) != sf::Socket::Done)
 	{

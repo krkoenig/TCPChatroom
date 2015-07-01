@@ -8,12 +8,12 @@ Client::Client(std::unique_ptr<sf::TcpSocket> s)
 	socket = std::move(s);
 	socket->setBlocking(false);
 
-	output("New Connection at " + socket->getRemoteAddress().toString() + ":" + std::to_string(socket->getLocalPort()));
+	output("New Connection at " + socket->getRemoteAddress().toString() + ":" + std::to_string(socket->getLocalPort()) + "\n");
 }
 
 Client::~Client()
 {
-	output("Disconnection at " + socket->getRemoteAddress().toString() + ":" + std::to_string(socket->getLocalPort()));
+	output("Disconnection at " + socket->getRemoteAddress().toString() + ":" + std::to_string(socket->getLocalPort()) + "\n");
 	socket->disconnect();
 }
 

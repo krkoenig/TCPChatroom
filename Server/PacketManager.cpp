@@ -34,7 +34,7 @@ sf::Packet PacketManager::compMessPack(sf::Packet in)
 	Message mess;
 	in >> mess;
 
-	output(mess.username + ": " + mess.text);
+	output(mess.username + ": " + mess.text + "\n");
 
 	sf::Packet out;
 	out << "message" << mess;

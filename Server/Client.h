@@ -5,7 +5,6 @@
 
 #pragma once
 
-#include "Session.h"
 #include "Output.h"
 
 #include <SFML\Network.hpp>

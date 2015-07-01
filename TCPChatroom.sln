@@ -17,6 +17,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BC958063-D604-4288-82FA-542413AAC5F7}.Debug|Win32.ActiveCfg = Debug|Win32
 		{BC958063-D604-4288-82FA-542413AAC5F7}.Debug|Win32.Build.0 = Debug|Win32
+		{BC958063-D604-4288-82FA-542413AAC5F7}.Debug|Win32.Deploy.0 = Debug|Win32
 		{BC958063-D604-4288-82FA-542413AAC5F7}.Debug|x64.ActiveCfg = Debug|x64
 		{BC958063-D604-4288-82FA-542413AAC5F7}.Debug|x64.Build.0 = Debug|x64
 		{BC958063-D604-4288-82FA-542413AAC5F7}.Release|Win32.ActiveCfg = Release|Win32

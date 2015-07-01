@@ -11,7 +11,6 @@
 #include <queue>
 
 #include "Client.h"
-#include "Session.h"
 
 #include "Output.h"
 
